@@ -1,0 +1,20 @@
+---
+description: Project context for Case E College Counselling — client, status, and what must be decided in discovery
+alwaysApply: true
+---
+
+# Case E — College Counselling
+
+## Client
+- **Mr. Wolanin**, College Counselling Office, Pomfret School.
+
+## Team
+- Developers: **unassigned**. Club lead: Cayden Auyang. Update this line and `.github/CODEOWNERS` when developers are assigned.
+
+## Status
+- Discovery not started. Problem statement, goal, stack, and Phase 1 definition of done are all **open**; do not invent them. When helping here, ask what Mr. Wolanin said in discovery, then record the answers in `README.md` and in this rule.
+
+## Guidance for the first build
+- Prefer the office's existing tools (Google Workspace: Sheets, Docs, Forms, Calendar, Apps Script) over new infrastructure unless discovery shows a clear need.
+- Student data in a college counselling context is sensitive (grades, essays, recommendations). Never commit real student data, exports, or documents to this repo; use fabricated sample data for development and say so in the README.
+- Add a `.env.example` the moment any credential or ID is needed.
