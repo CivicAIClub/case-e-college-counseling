@@ -1,28 +1,28 @@
-# Case E — College Counselling
+# Case E — College Counseling
 
 | | |
 |---|---|
-| **Client** | Mr. Wolanin, College Counselling Office, Pomfret School |
+| **Client** | Mr. Wolanin, College Counseling Office, Pomfret School |
 | **Developers** | _Unassigned — this case is open._ |
 | **Club lead** | Cayden Auyang |
 | **Status** | 🔵 Discovery not started |
 
 ## The problem
 
-_To be written with Mr. Wolanin during discovery: what the college counselling office does by hand today, where the time goes, and what "better" would look like for him and for students._
+_To be written with Mr. Wolanin during discovery: what the college counseling office does by hand today, where the time goes, and what "better" would look like for him and for students._
 
 ## Goal
 
-_To be defined in discovery._ Candidate directions to explore in the first meeting (not commitments): tracking application deadlines and requirements per student, organizing recommendation-letter requests, summarizing counselling notes, or drafting communications.
+_To be defined in discovery._ Candidate directions to explore in the first meeting (not commitments): tracking application deadlines and requirements per student, organizing recommendation-letter requests, summarizing counseling notes, or drafting communications.
 
 ## Stack
 
-_Not decided._ Pick the simplest thing that fits the office's existing tools (Google Workspace is likely). Decide during discovery and record the decision here and in `.cursor/rules/case-e-college-counselling.mdc`.
+_Not decided._ Pick the simplest thing that fits the office's existing tools (Google Workspace is likely). Decide during discovery and record the decision here and in `.cursor/rules/case-e-college-counseling.mdc`.
 
 ## Repository layout
 
 ```
-case-e-college-counselling/
+case-e-college-counseling/
 ├── README.md              ← this file; keep it the source of truth for setup
 ├── .cursor/rules/         ← committed Cursor rules (workflow + project context)
 ├── .github/               ← pull request template, CODEOWNERS
