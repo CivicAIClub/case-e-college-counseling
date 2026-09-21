@@ -5,7 +5,7 @@ alwaysApply: true
 
 # Civic AI Club — how we work in this repo
 
-This repository is **standalone**: `CivicAIClub/case-e-college-counselling`. All paths are relative to the repo root. Club projects each live in their own repo; the old monorepo (`Civic-AI-Github-Repository`) is archived and must not be edited.
+This repository is **standalone**: `CivicAIClub/case-e-college-counseling`. All paths are relative to the repo root. Club projects each live in their own repo; the old monorepo (`Civic-AI-Github-Repository`) is archived and must not be edited.
 
 The developers are high school students learning collaborative coding. Prefer clarity over cleverness. If you generate code the developer cannot explain, say so and summarize what it does in plain English.
 
@@ -20,4 +20,4 @@ The developers are high school students learning collaborative coding. Prefer cl
 ## Where things live
 
 - Beginner Git walkthrough, common fixes, and the club-wide repository list: **https://github.com/CivicAIClub/docs/blob/main/developer-onboarding.md**. Reference it for any Git, branching, PR, or merge-conflict question instead of improvising.
-- Project context for this repo: `README.md` and `.cursor/rules/case-e-college-counselling.mdc`.
+- Project context for this repo: `README.md` and `.cursor/rules/case-e-college-counseling.mdc`.
