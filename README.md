@@ -1,4 +1,8 @@
-# Case E — College Counseling
+# Case E: College Counseling
+
+## What this is
+
+Mr. Wolanin in Pomfret's College Counseling Office is the client for this case. The problem and goal will be written with him during discovery, so there is no code yet. Status: discovery not started.
 
 | | |
 |---|---|
@@ -42,3 +46,8 @@ Add code at the repo root (no `projects/` folder). When you add a real setup, wr
 ## Definition of done (Phase 1)
 
 _To be set after the discovery meeting._ A good Phase 1 is one concrete workflow of Mr. Wolanin's, automated end to end, that he can run himself.
+
+## Contributors
+
+- **Cayden Auyang:** club lead; set up this repository
+- Developers: not yet assigned
