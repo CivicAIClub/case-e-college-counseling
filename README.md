@@ -2,26 +2,39 @@
 
 ## What this is
 
-Mr. Wolanin in Pomfret's College Counseling Office is the client for this case. The problem and goal will be written with him during discovery, so there is no code yet. Status: discovery not started.
+Mr. Wolanin in Pomfret's College Counseling Office is the client for this case. Before writing each student's recommendation letter, a counselor gathers that student's teacher comments and questionnaire answers into one Google Doc by hand. The first deliverable is a demo that builds those student profiles for the counselor; the counselor still writes every letter. Status: first meeting with Mr. Wolanin held October 9, 2026. Building a first demo.
 
 | | |
 |---|---|
 | **Client** | Mr. Wolanin, College Counseling Office, Pomfret School |
-| **Developers** | _Unassigned — this case is open._ |
+| **Developers** | James Tian, James Lake, Alex Tong, Erin Park, Claire Desrosiers, Mason Gordon |
 | **Club lead** | Cayden Auyang |
-| **Status** | 🔵 Discovery not started |
+| **Status** | 🟡 First meeting held October 9, 2026. Building a first demo |
 
 ## The problem
 
-_To be written with Mr. Wolanin during discovery: what the college counseling office does by hand today, where the time goes, and what "better" would look like for him and for students._
+Before writing each student's recommendation letter, a counselor gathers the student's teacher comments and questionnaire answers by hand into one Google Doc.
 
 ## Goal
 
-_To be defined in discovery._ Candidate directions to explore in the first meeting (not commitments): tracking application deadlines and requirements per student, organizing recommendation-letter requests, summarizing counseling notes, or drafting communications.
+Decisions from the first meeting:
+
+- The counselor writes every letter. The tool only gathers and organizes. No AI-written letters.
+- Adaptive questions come later, only after the counselors approve.
+
+The first deliverable is a **student profile builder** demo:
+
+- **In:** two Google Sheets of made-up data. One holds questionnaire answers. The other holds teacher comments, with the student, course, teacher and term for each.
+- **Out:** one profile Doc per student, with the questionnaire answers by section, the teacher comments grouped by course and term, and an empty "My notes" section that the tool never touches.
+- **How it runs:** from a "Build profiles" menu in Apps Script. Running it again updates each profile without duplicating anything.
 
 ## Stack
 
-_Not decided._ Pick the simplest thing that fits the office's existing tools (Google Workspace is likely). Decide during discovery and record the decision here and in `.cursor/rules/case-e-college-counseling.mdc`.
+Google Apps Script in a Google Sheet, for this deliverable.
+
+## Student data
+
+This repository is public, and college counseling data is sensitive (teacher comments, questionnaire answers, recommendation letters). Build and test with made-up students only. Never commit real student data, exports, Docs, or any Sheet or Doc IDs.
 
 ## Repository layout
 
@@ -45,9 +58,14 @@ Add code at the repo root (no `projects/` folder). When you add a real setup, wr
 
 ## Definition of done (Phase 1)
 
-_To be set after the discovery meeting._ A good Phase 1 is one concrete workflow of Mr. Wolanin's, automated end to end, that he can run himself.
+The demo is done when the "Build profiles" menu turns the two sample Sheets into one profile Doc per student as described above, and a second run updates those Docs without duplicating anything.
 
 ## Contributors
 
 - **Cayden Auyang:** club lead; set up this repository
-- Developers: not yet assigned
+- **James Tian:** developer
+- **James Lake:** developer
+- **Alex Tong:** developer
+- **Erin Park:** developer
+- **Claire Desrosiers:** developer
+- **Mason Gordon:** developer
