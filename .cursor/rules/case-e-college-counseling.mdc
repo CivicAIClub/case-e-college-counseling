@@ -1,20 +1,34 @@
 ---
-description: Project context for Case E College Counseling — client, status, and what must be decided in discovery
+description: "Project context for Case E: College Counseling (client, status, decisions and the first deliverable)"
 alwaysApply: true
 ---
 
-# Case E — College Counseling
+# Case E: College Counseling
 
 ## Client
 - **Mr. Wolanin**, College Counseling Office, Pomfret School.
 
 ## Team
-- Developers: **unassigned**. Club lead: Cayden Auyang. Update this line and `.github/CODEOWNERS` when developers are assigned.
+- Developers: James Tian, James Lake, Alex Tong, Erin Park, Claire Desrosiers, Mason Gordon. Club lead: Cayden Auyang. Keep this line and `.github/CODEOWNERS` up to date when the team changes.
 
 ## Status
-- Discovery not started. Problem statement, goal, stack, and Phase 1 definition of done are all **open**; do not invent them. When helping here, ask what Mr. Wolanin said in discovery, then record the answers in `README.md` and in this rule.
+- First meeting with Mr. Wolanin held October 9, 2026. Building a first demo.
 
-## Guidance for the first build
-- Prefer the office's existing tools (Google Workspace: Sheets, Docs, Forms, Calendar, Apps Script) over new infrastructure unless discovery shows a clear need.
-- Student data in a college counseling context is sensitive (grades, essays, recommendations). Never commit real student data, exports, or documents to this repo; use fabricated sample data for development and say so in the README.
-- Add a `.env.example` the moment any credential or ID is needed.
+## The problem
+- Before writing each student's recommendation letter, a counselor gathers the student's teacher comments and questionnaire answers by hand into one Google Doc.
+
+## Decisions (do not reopen)
+- The counselor writes every letter. The tool only gathers and organizes. Never write or draft letter text: no AI-written letters.
+- Adaptive questions come later, only after the counselors approve.
+
+## First deliverable: student profile builder demo
+- In: two Google Sheets of made-up data (questionnaire answers; teacher comments with student, course, teacher, term).
+- Out: one profile Doc per student, with answers by section, comments grouped by course and term, and an empty "My notes" section the tool never touches.
+- Runs from a "Build profiles" menu in Apps Script. A second run updates each Doc without duplicating anything.
+
+## Stack
+- Google Apps Script in a Google Sheet, for this deliverable.
+
+## Guidance
+- Student data in a college counseling context is sensitive (grades, essays, recommendations). Never commit real student data, exports, or documents to this repo; use made-up sample data and say so in the README.
+- Never commit Sheet or Doc IDs or web app links. Add a `.env.example` the moment any credential or ID is needed.
