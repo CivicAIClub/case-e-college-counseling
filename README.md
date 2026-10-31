@@ -7,9 +7,11 @@ Mr. Wolanin in Pomfret's College Counseling Office is the client for this case. 
 | | |
 |---|---|
 | **Client** | Mr. Wolanin, College Counseling Office, Pomfret School |
-| **Developers** | James Tian, James Lake, Alex Tong, Erin Park, Claire Desrosiers, Mason Gordon |
-| **Club lead** | Cayden Auyang |
+| **Developers** | James Tian, James Lake, Alex Tong, Erin Park, Claire Desrosiers, Mason Gordon, Keke Li (lead developer), Luke Ryan |
+| **Club lead** | Luke Ryan (vice president), who runs the case from October 25 |
 | **Status** | 🟡 First meeting held October 9, 2026. Building a first demo |
+
+Teacher comments now come from report card PDFs that counselors download from Sundial into a Drive folder instead of a typed-in sheet. The full build prompt for the demo will update the rest of this README.
 
 ## The problem
 
